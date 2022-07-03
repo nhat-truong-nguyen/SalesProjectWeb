@@ -104,11 +104,6 @@ $(document).ready(function () {
         }
     });
 
-    window.onload(function () {
-        if (window.innerWidth >= 992) {
-            $('.contact__wrapper .contact__toggle').slideDown('h5');
-        }
-    });
 });
 
 function countDown() {

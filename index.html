@@ -52,11 +52,13 @@
                         <div class="menu__item">
                             <img src="public/images/compare.svg" alt="Compare icon" class="nav__icon">
                         </div>
-                        <div class="menu__item">
+                        <div class="menu__item position-relative">
                             <img src="public/images/Wishlist.svg" alt="Wishlist" class="nav__icon">
+                            <div class="position-absolute badge__style"><span>0</span></div>
                         </div>
-                        <div class="menu__item">
+                        <div class="menu__item position-relative">
                             <img src="public/images/bag.svg" alt="Bag" class="nav__icon">
+                            <div class="position-absolute badge__style"><span>0</span></div>
                         </div>
                         <div id="search" class="menu__item">
                             <img src="public/images/search_black.svg" alt="Search" class="search__icon img-fluid">
@@ -66,38 +68,40 @@
                         <!-- dropdown search bar -->
                         <div id="search__drop">
                             <div class="box__search clear-fix">
-                                <select name="category__id" class="form__control">
-                                    <option value="0">All Categories</option>
-                                    <option value="20">Grocery</option>
-                                    <option value="68">&nbsp;&nbsp;&nbsp;Bakery and Bread</option>
-                                    <option value="69">&nbsp;&nbsp;&nbsp;Frozen Foods</option>
-                                    <option value="70">&nbsp;&nbsp;&nbsp;Dairy Products</option>
-                                    <option value="71">&nbsp;&nbsp;&nbsp;Snacks and Crackers</option>
-                                    <option value="49">Kids</option>
-                                    <option value="63">&nbsp;&nbsp;&nbsp;Kids Toy</option>
-                                    <option value="64">&nbsp;&nbsp;&nbsp;Kids Fashion</option>
-                                    <option value="18">Fashion</option>
-                                    <option value="46">&nbsp;&nbsp;&nbsp;Accessories</option>
-                                    <option value="45">&nbsp;&nbsp;&nbsp;Eyeliner</option>
-                                    <option value="25">Gadgets</option>
-                                    <option value="29">&nbsp;&nbsp;&nbsp;Mobile Phones</option>
-                                    <option value="28">&nbsp;&nbsp;&nbsp;Monitors</option>
-                                    <option value="30">&nbsp;&nbsp;&nbsp;Printers</option>
-                                    <option value="31">&nbsp;&nbsp;&nbsp;Scanners</option>
-                                    <option value="32">&nbsp;&nbsp;&nbsp;Web Cameras</option>
-                                    <option value="57">Electronics</option>
-                                    <option value="17">Appliances</option>
-                                    <option value="24">AutoParts</option>
-                                    <option value="59">Kitchen</option>
-                                    <option value="66">Books</option>
-                                    <option value="62">Baby Products</option>
-                                    <option value="33">Furniture</option>
-                                    <option value="67">Home Decore</option>
-                                    <option value="34">Tool</option>
-                                    <option value="60">Bag Pack</option>
-                                    <option value="61">Sports and fitness</option>
-                                    <option value="65">Beauty Products</option>
-                                </select>
+                                <form action="#" class="form__control">
+                                    <select name="category__id">
+                                        <option value="0">All Categories</option>
+                                        <option value="20">Grocery</option>
+                                        <option value="68">&nbsp;&nbsp;&nbsp;Bakery and Bread</option>
+                                        <option value="69">&nbsp;&nbsp;&nbsp;Frozen Foods</option>
+                                        <option value="70">&nbsp;&nbsp;&nbsp;Dairy Products</option>
+                                        <option value="71">&nbsp;&nbsp;&nbsp;Snacks and Crackers</option>
+                                        <option value="49">Kids</option>
+                                        <option value="63">&nbsp;&nbsp;&nbsp;Kids Toy</option>
+                                        <option value="64">&nbsp;&nbsp;&nbsp;Kids Fashion</option>
+                                        <option value="18">Fashion</option>
+                                        <option value="46">&nbsp;&nbsp;&nbsp;Accessories</option>
+                                        <option value="45">&nbsp;&nbsp;&nbsp;Eyeliner</option>
+                                        <option value="25">Gadgets</option>
+                                        <option value="29">&nbsp;&nbsp;&nbsp;Mobile Phones</option>
+                                        <option value="28">&nbsp;&nbsp;&nbsp;Monitors</option>
+                                        <option value="30">&nbsp;&nbsp;&nbsp;Printers</option>
+                                        <option value="31">&nbsp;&nbsp;&nbsp;Scanners</option>
+                                        <option value="32">&nbsp;&nbsp;&nbsp;Web Cameras</option>
+                                        <option value="57">Electronics</option>
+                                        <option value="17">Appliances</option>
+                                        <option value="24">AutoParts</option>
+                                        <option value="59">Kitchen</option>
+                                        <option value="66">Books</option>
+                                        <option value="62">Baby Products</option>
+                                        <option value="33">Furniture</option>
+                                        <option value="67">Home Decore</option>
+                                        <option value="34">Tool</option>
+                                        <option value="60">Bag Pack</option>
+                                        <option value="61">Sports and fitness</option>
+                                        <option value="65">Beauty Products</option>
+                                    </select>
+                                </form>
                                 <div class="search__input">
                                     <input type="text" placeholder="Search Products..." class="search__content "
                                         aria-label="search-bar">
@@ -123,11 +127,11 @@
                                         <i class="menu__btn fa-solid fa-plus"></i>
                                         <a href="#">Grocery</a>
                                         <ul class="offcanvas__sublist">
-                                           <li><a href="#">Bakery and Bread</a></li>
-                                           <li><a href="#">Frozen Foods</a></li>
-                                           <li><a href="#">Dairy Products</a></li>
-                                           <li><a href="#">Frozen Foods</a></li>
-                                           <li><a href="#">Snacks and Crackers</a></li>
+                                            <li><a href="#">Bakery and Bread</a></li>
+                                            <li><a href="#">Frozen Foods</a></li>
+                                            <li><a href="#">Dairy Products</a></li>
+                                            <li><a href="#">Frozen Foods</a></li>
+                                            <li><a href="#">Snacks and Crackers</a></li>
                                         </ul>
                                     </li>
                                     <li id="menu__kids">
