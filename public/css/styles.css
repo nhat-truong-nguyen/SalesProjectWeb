@@ -1060,10 +1060,16 @@ a:hover {
     right: 1.8em;
     width: 2.4em;
     height: 2.4em;
-    padding-top: .2em;
     background: #f7d929;
     border: .1em solid rgba(110, 110, 110, 0);
     border-radius: 50%;
+}
+
+#btn__home i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #btn__home:hover {
