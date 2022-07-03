@@ -61,15 +61,15 @@ $(document).ready(function () {
     });
 
     $('.menu__btn').click(function () {
-        if ($(this).parent('li').next('.offcanvas__sublist').hasClass('active')) {
+        if ($(this).next('a').next('.offcanvas__sublist').hasClass('active')) {
             $(this).removeClass('fa-minus').addClass('fa-plus');
-            $(this).parent('li').next('.offcanvas__sublist').slideUp().removeClass('active');
+            $(this).next('a').next('.offcanvas__sublist').slideUp().removeClass('active');
         }
         else {
             $('.menu__btn').addClass('fa-plus').removeClass('fa-minus');
-            $('.menu__btn').parent('li').next('.offcanvas__sublist').slideUp().removeClass('active');
+            $('.menu__btn').next('a').next('.offcanvas__sublist').slideUp().removeClass('active');
             $(this).removeClass('fa-plus').addClass('fa-minus');
-            $(this).parent('li').next('.offcanvas__sublist').slideDown().addClass('active');
+            $(this).next('a').next('.offcanvas__sublist').slideDown().addClass('active');
         }
     });
 
