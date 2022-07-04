@@ -636,7 +636,7 @@ ul.drop__list__style li a {
 
 .box__clock div span {
     display: block;
-    width: 3.em;
+    width: 3em;
     padding: .5em 0;
 }
 
@@ -1190,7 +1190,7 @@ a:hover {
     .service__info .card .card-body {
         height: 15em;
         padding-top: 1.5em;
-    git }
+    }
 
     .main__email {
         padding-left: 3em;
