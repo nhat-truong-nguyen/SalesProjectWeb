@@ -404,14 +404,14 @@ ul.drop__list__style li a {
 }
 
 .service__info .card {
-    padding-top: 4em;
+    padding-top: 3em;
     border-radius: 0;
     border: none;
 }
 
 .service__info .card .card-body {
-    height: 15em;
-    padding-top: 1.5em;
+    height: 12em;
+    padding-top: 0;
 }
 
 .service__info .card .card-body h5 {
@@ -636,7 +636,7 @@ ul.drop__list__style li a {
 
 .box__clock div span {
     display: block;
-    width: 3em;
+    width: 3.em;
     padding: .5em 0;
 }
 
@@ -1187,6 +1187,11 @@ a:hover {
 }
 
 @media (min-width: 992px) {
+    .service__info .card .card-body {
+        height: 15em;
+        padding-top: 1.5em;
+    git }
+
     .main__email {
         padding-left: 3em;
         padding-right: 3em;
