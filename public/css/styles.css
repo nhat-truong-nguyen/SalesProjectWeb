@@ -172,7 +172,6 @@ ul.drop__list__style li a {
     color: #000;
     display: block;
     padding: .7em 1.5em;
-    transition: all 500ms;
 }
 
 #droplist__1:hover>ul,
