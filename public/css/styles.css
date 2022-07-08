@@ -179,6 +179,7 @@ ul.drop__list__style li a {
 #droplist__3:hover>ul,
 #droplist__4:hover>ul {
     visibility: visible;
+    transition: visibility 300ms;
 }
 
 /* carousel banner */
